@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pokédex ABCedario</title>
+    <link rel="stylesheet" href="julian_style.css">
+</head>
+
+<body class="fondo-julian">
+    <div class="contenedor-julian">
+        <h1>Pokédex ABCedario</h1>
+        <p>Escribe una letra y te muestro un Pokémon que empiece con esa letra</p>
+        <input type="text" id="letra" maxlength="1" placeholder="Escribe una letra">
+        <button id="buscar">Buscar</button>
+
+        <div id="resultado">
+            <p id="mensaje"></p>
+            <img id="imagen" src="" alt="">
+        </div>
+
+
+        <div id="historial-busquedas">
+            <h3>Historial de búsquedas</h3>
+            <ul id="lista-historial"></ul>
+        </div>
+
+        <a href="/front/src/main/java/com/front/index.html" class="volver">Volver al inicio</a>
+    </div>
+    <script src="julian_script.js"></script>
+</body>
+
+</html>
